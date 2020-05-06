@@ -1,0 +1,2 @@
+version=4
+https://github.com/prometheus/client_ruby/releases /prometheus/client_ruby/archive/v(.*)\.tar\.gz

@@ -1,0 +1,5 @@
+ruby-prometheus-client (2.0.0-exapico1) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- Kasumi Hanazuki <kasumi@rollingapple.net>  Wed, 06 May 2020 16:13:02 +0000

@@ -1,0 +1,9 @@
+Bug-Database: https://github.com/prometheus/client_ruby/issues
+Bug-Submit: https://github.com/prometheus/client_ruby/issues/new
+Changelog: https://github.com/prometheus/client_ruby/blob/master/CHANGELOG.md
+Documentation: https://github.com/prometheus/client_ruby/blob/master/README.md
+Registry:
+  - Name: rubygems
+    Entry: prometheus-client
+Repository: https://github.com/prometheus/client_ruby.git
+Repository-Browse: https://github.com/prometheus/client_ruby

@@ -1,0 +1,26 @@
+Source: ruby-prometheus-client
+Section: ruby
+Priority: optional
+Maintainer: Kasumi Hanazuki <kasumi@rollingapple.net>
+Build-Depends:
+ debhelper-compat (= 11),
+ gem2deb,
+ ruby-rspec,
+ ruby-rack-test
+Standards-Version: 4.4.1
+Vcs-Git: https://github.com/hanazuki/ruby-prometheus-client.deb
+Vcs-Browser: https://github.com/hanazuki/ruby-prometheus-client.deb
+Homepage: https://github.com/prometheus/client_ruby
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-prometheus-client
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends:
+ ruby | ruby-interpreter,
+ ${misc:Depends}
+Conflicts: ruby-prometheus-client-mmap
+Description: Prometheus instrumentation library for Ruby applications
+ A suite of instrumentation metric primitives for Ruby
+ that can be exposed through a HTTP interface.
